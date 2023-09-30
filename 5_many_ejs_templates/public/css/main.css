@@ -80,3 +80,12 @@ header {
 }
 
 /* ---------- navigation styles END ---------- */
+
+/* Here lives the main body for the about me page */
+
+.about-body-container{
+    text-align: center;
+}
+
+
+/* Here ends the main body for the about me page */
