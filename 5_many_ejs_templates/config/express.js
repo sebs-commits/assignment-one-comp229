@@ -8,7 +8,7 @@ module.exports = function () {
 
   var app = express();
 
-  console.log('aaaaaaaaaaaaaaa ', process.env.NODE_ENV);
+  console.log('Starting Seb Portfolio Server ', process.env.NODE_ENV);
 
   if (process.env.NODE_ENV === "development") {
     app.use(morgan("dev"));
@@ -35,6 +35,7 @@ module.exports = function () {
   require('../app/routes/home.server.routes.js')(app);
   require('../app/routes/contact.server.routes.js')(app);
   require('../app/routes/services.server.routes.js')(app);
+  require('../app/routes/projects.server.routes.js')(app);
   
   return app;
 };
