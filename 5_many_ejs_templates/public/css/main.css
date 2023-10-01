@@ -7,15 +7,17 @@ body {
 footer {
     text-align: center;
     padding: 3px;
-    background-color: DarkSalmon;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     color: white;
 }
 
 header {
-    background-color: #666;
-    padding: 30px;
+    background-size: 50px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    /* background-color: #750505; */
     text-align: center;
-    font-size: 35px;
     color: white;
 }
 
@@ -80,12 +82,6 @@ header {
 }
 
 /* ---------- navigation styles END ---------- */
-
-/* Here lives the main body for the about me page */
-
-.about-body-container{
-    text-align: center;
+img{
+    max-height: 13em;
 }
-
-
-/* Here ends the main body for the about me page */
