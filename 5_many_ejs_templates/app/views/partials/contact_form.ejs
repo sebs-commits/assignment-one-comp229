@@ -10,18 +10,25 @@
     <div class="main-container">
         <div class="contact-container">
             <h2>Contact Info</h2>
-            <p class="contact-title">Phone</p>
-            <p class="contact-info">248.434.5508</p>
-            <p class="contact-title">Email</p>
-            <p class="contact-info">something@gmail.com</p>
+            <div class="icon-text-container">
+                <div class="icon-text-pair">
+                    <img class="icon-img" src="/img/phone_icon.png">
+                    <p class="contact-info">Phone: 248.434.5508</p>
+                </div>
+                <div class="icon-text-pair">
+                    <img class="icon-img" src="/img/email_icon.png">
+                    
+                    <p class="contact-info">Email: something@gmail.com</p>
+                </div>
+            </div>
         </div>
         <div class="forms-container">
-            <h2>Contact Form</h2>
-                <form>
-                    <label for="first-name">Name<input id="first-name" name="first-name" type="text" required/></label>
-                    <label for="email">Email<input id="email" name="email" type="email" required/></label>
-                    <p class="message">Message<textarea></textarea></p>
-                    <button type="submit">Submit</button>
+            <h2>Lets get in touch!</h2>
+                <form class="btn">
+                    <label for="first-name"><input placeholder="Name" id="first-name" name="first-name" type="text" required/></label>
+                    <label for="email"><input placeholder="Email" id="email" name="email" type="email" required/></label>
+                    <p class="message" ><textarea placeholder="Message"></textarea></p>
+                    <button class="submit-btn" type="submit">Send</button>
                 </form>
         </div>
     </div>
