@@ -1,0 +1,43 @@
+.about-title{
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 3em;
+}
+
+.picture-container{
+    width: 40%;
+}
+
+.portrait-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.information-container{
+    width: 45%;
+}
+
+.intro-header{
+    font-size: 2em;
+}
+
+.info-header{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.info-text{
+    line-height: 2;
+}
+
+.resume-btn{
+    padding: 8px 2em;
+    max-width: 50%;
+    margin: 6px auto;
+}

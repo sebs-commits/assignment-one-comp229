@@ -1,0 +1,6 @@
+Todays TO-DO
+    - Complete home page.
+    - Complete services page./Completed
+    - Complete projects page.
+    - Upload assignment and host it using github hosting services.
+    - Once all that is complete, touch some grass.
