@@ -35,3 +35,9 @@
 .info-text{
     line-height: 2;
 }
+
+.resume-btn{
+    padding: 8px 2em;
+    max-width: 50%;
+    margin: 6px auto;
+}
